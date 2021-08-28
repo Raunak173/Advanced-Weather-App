@@ -1,0 +1,24 @@
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.field{
+    width: 80%;
+}
+
+.btn{
+    width: 8vw;
+    height: 6vh;
+}
+
+@media (max-width: 900px){
+    .field{
+        width: 70%;
+    }
+    .btn {
+        width: 20vw;
+        height: 6vh;
+    }
+}

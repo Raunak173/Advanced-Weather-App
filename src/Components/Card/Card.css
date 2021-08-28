@@ -1,0 +1,45 @@
+.container{
+    width: 51%;
+    margin-top: 2%;
+    margin-left: 18%;
+    height: 62vh;
+    padding-top: 1%;
+}
+
+.heading{
+    margin: auto;
+    color: red;
+    font-size: 40px;
+    margin-top: 0.1%;
+}
+
+.contents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.2%;
+    color: #03045e;
+    font-size: 20px;
+}
+
+.contents h3{
+    padding-top: 0.5%;
+}
+
+@media (max-width:900px){
+    .container{
+        width: 96%;
+        margin: auto;
+        margin-top: 5%;
+        height: 60vh;
+    }
+    .contents{
+        font-size: 13px;
+    }
+    .contents h3{
+        padding-top: 2%;
+    }
+    .heading{
+        margin-top: 2%;
+    }
+}
