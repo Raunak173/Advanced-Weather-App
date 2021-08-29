@@ -46,7 +46,7 @@ function App() {
 
   useEffect(() => {
     weatherApi();
-  }, [city]);
+  }, []);
 
   return (
     <div className="col">
